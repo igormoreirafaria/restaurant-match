@@ -111,7 +111,7 @@ backend
 
 - The reverse proxy configuration is located at `nginx`.
 
-- The files used to feed the database are located at `database`. There you may find two `.csv` files, one `.py` and the `Dockerfile`.
+- The files used to feed the database are located at `database`. There you may find two `.csv` files, one `.py` and the `Dockerfile`. If you want to keep the feeded information in a volume as to avoid reinserting them every time, `uncomment the volume code` from the Dockerfile. Also remember to comment the python session as to avoid duplicating data when running `compose up -d`
 
 ### 6. Additional Assumptions
 
