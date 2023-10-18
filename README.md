@@ -20,8 +20,8 @@ Before you begin, make sure you have the following tool and software installed o
 ### 1. Clone the repository:
 
 ```bash
-git clone
-cd 
+git clone https://github.com/igormoreirafaria/restaurant-match.git
+cd restaurant-match
 ```
 
 ### 2. Run the Docker Compose File:
